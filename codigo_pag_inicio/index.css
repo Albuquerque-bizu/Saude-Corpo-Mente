@@ -1,0 +1,28 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(184, 222, 184);
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.titulo{
+    
+}
+h1{
+    color: rgb(85, 97, 195);
+}
+.botao-pai{
+
+    display: flex;
+    justify-content: center;
+}
+.botao{
+
+    font-size: 20px;
+    color:white;
+    background-color:green;
+}
