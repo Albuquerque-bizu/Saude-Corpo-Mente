@@ -16,6 +16,14 @@ h1{
     color: rgb(85, 97, 195);
     font-size:40px;
 }
+h2{
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  
+}
+.paragrafo{
+    margin-right: 20px;
+}
+
 .botao-pai{
 
     display: flex;
