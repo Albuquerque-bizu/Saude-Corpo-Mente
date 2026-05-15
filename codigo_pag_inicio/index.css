@@ -1,0 +1,30 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(184, 222, 184);
+}
+.pai{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.titulo{
+    color: aliceblue;
+}
+h1{
+    color: rgb(85, 97, 195);
+    font-size: 40px;
+
+}
+.botao-pai{
+
+    display: flex;
+    justify-content: center;
+}
+.botao{
+
+    font-size: 40px;
+    color:white;
+    background-color:green;
+}
