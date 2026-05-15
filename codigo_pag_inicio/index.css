@@ -14,6 +14,7 @@ body{
 }
 h1{
     color: rgb(85, 97, 195);
+    font-size:40px;
 }
 .botao-pai{
 
@@ -22,7 +23,7 @@ h1{
 }
 .botao{
 
-    font-size: 20px;
+    font-size: 40px;
     color:white;
     background-color:green;
 }
