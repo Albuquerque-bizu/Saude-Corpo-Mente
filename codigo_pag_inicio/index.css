@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color:rgb(184, 222, 184);
+    background-color:rgb(217, 214, 214);
 }
 .pai{
     display: flex;
@@ -9,22 +9,25 @@ body{
     text-align: center;
 
 }
-.titulo{
-    color: aliceblue;
-}
+
 h1{
-    color: rgb(85, 97, 195);
+    color:rgb(9, 9, 97);
     font-size: 40px;
 
 }
+
+h2{
+    color:black
+}
+
 .botao-pai{
 
     display: flex;
     justify-content: center;
 }
-.botao{
+#iniciar{
 
     font-size: 40px;
-    color:white;
-    background-color:green;
+    color:rgb(242, 239, 239);
+    background-color:rgb(2, 89, 2);
 }
