@@ -1,9 +1,13 @@
-const botao = document.getElementById("iniciar");
-const mensagem = document.getElementById("mensagem");
+const botao =
+ document.getElementById("iniciar");
+const mensagem =
+ document.getElementById("mensagem");
 
-botao.addEventListener("click" , function(){
+botao.addEventListener("click" ,
+     function(){
+        
     mensagem.innerText = "você clicou no botao!";
-    window.location.href = "perguntas.html";
+    window.location.href =
+     "perguntas.html";
      
-
 })
