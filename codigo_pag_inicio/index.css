@@ -1,8 +1,4 @@
-body{
-    margin: 0px;
-    padding: 0px;
-    background-color:rgb(217, 214, 214);
-}
+
 .pai{
     display: flex;
     flex-direction: column;
@@ -30,4 +26,15 @@ h2{
     font-size: 40px;
     color:rgb(242, 239, 239);
     background-color:rgb(2, 89, 2);
+
+
+}
+
+body{
+    background-image: url(../../../../../Downloads/WhatsAppImage2026-06-22at10.36.39.jpeg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
 }
