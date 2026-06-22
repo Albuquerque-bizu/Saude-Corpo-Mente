@@ -13,6 +13,9 @@ h1{
 }
 
 h2{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
     color:black
 }
 
@@ -22,16 +25,18 @@ h2{
     justify-content: center;
 }
 #iniciar{
-
-    font-size: 40px;
+     
+    margin-top: 50px;
+    font-size: 65px;
     color:rgb(242, 239, 239);
     background-color:rgb(2, 89, 2);
+    border-radius: 20px;
 
 
 }
 
 body{
-    background-image:url(../../../../Imagens/panterinha/WhatsAppImage2026-06-22at10.36.39.png);
+    background-image:url(WhatsApp\ Image\ 2026-06-22\ at\ 16.45.15.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
