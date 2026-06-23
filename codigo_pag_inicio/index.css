@@ -29,14 +29,21 @@ h2{
     margin-top: 50px;
     font-size: 65px;
     color:rgb(242, 239, 239);
-    background-color:rgb(2, 89, 2);
+    background-color:#025902;
     border-radius: 20px;
 
 
 }
+h3{
+    font-size: 25px;
+    padding-left: 150px;
+    padding-right: 150px;
+    text-align: center;
+    color: black;
+}
 
 body{
-    background-image:url(WhatsApp\ Image\ 2026-06-22\ at\ 16.45.15.jpeg);
+    background-image:url(WhatsApp\ Image\ 2026-06-23\ at\ 16.21.29.jpeg);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
