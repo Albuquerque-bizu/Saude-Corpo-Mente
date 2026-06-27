@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" >
     
     <title>Document</title>
 
@@ -15,34 +15,31 @@
 </head>
 <body>
 
-    <section class="pagina ativa"><div  class="opcoes">
-        <p>1. Qual a faixa etária da sua idade? </p></div>
-
-    <div>
+         <section class="pagina ativa"><div>
+            <p>1. Qual a faixa etária da sua idade? </p>
+            <div>
         <label>
-            <input type="radio" class="dia" name="p1" value="9a13">for="dia">9-13 anos
+            <input type="radio" class="dia" name="p1" value="9a13">9-13 anos
         </label>
-     </div>
- 
-    <div>
+            </div>
+     
+            <div>
         <label>
             <input type="radio" name="p1" value="14a18">14-18 anos
         </label>
-    </div>
-    
-    <div>
+            </div>
+            <div>
         <Label>
             <input type="radio"  name="p1" value="19a35">19-35 anos
         </Label> 
-    </div>
-
-    <div>
+            </div>
+            <div>
         <label>
             <input type="radio"  name="p1" value="mais35">mais de 35 anos
         </label>
-    </div>
+    
 
-    <div><button>próximo</button></div>
+    <div><button id="botaoproximo">próximo</button></div>
     </section>
 
     <section class="pagina"><div class="opcoes">
@@ -73,7 +70,7 @@
         </label>
     </div>
 
-    <div><button>próximo</button></div>
+    <div><button id="botaoproximo">próximo</button></div>
     </section>
 
      <section class="pagina"><div class="opcoes">
@@ -103,7 +100,7 @@
         </label>
     </div>
 
-    <div><button>próximo</button></div>
+    <div><button id="botaoproximo">próximo</button></div>
      </section>
 
     <section class="pagina"><div class="opcoes"><p>4. Quanto tempo de sono você consome?</p></div>
@@ -126,11 +123,11 @@
         </label>
     </div>
 
-    <div><button>próximo</button></div>
+    <div><button id="botaoproximo">próximo</button></div>
 
     </section>
 
-    <section><div><p>5. Quantas vezes por semana você pratica alguma atividade física? </p></div>
+    <section class="pagina"><div><p>5. Quantas vezes por semana você pratica alguma atividade física? </p></div>
 
     <div>
         <label>
@@ -156,7 +153,7 @@
         </label>
     </div>
     
-    <div><button>próximo</button></div>
+    <div><button id="botaoproximo">próximo</button></div>
     </section>
 
     <section class="pagina"><div class="opcoes"><p>6. Com que frequência você sente dores de cabeça ao final do dia?</p></div>
@@ -179,7 +176,7 @@
         </label>
     </div>
 
-    <div><button>próximo</button></div>
+    <div><button id="botaoproximo">próximo</button></div>
 
     </section>
 
@@ -203,7 +200,7 @@
         </label>
     </div>
 
-    <div><button>próximo</button></div>
+    <div><button id="botaoproximo">próximo</button></div>
     </section>
 
      <section class="pagina"><div class="opcoes"><p>8.  Como o seu corpo reage após um dia de esforço físico fora do comum (ex: uma faxina pesada ou uma caminhada longa?)</p></div>
@@ -227,7 +224,7 @@
     </div>
 
 
-    <div><button>próximo</button></div>
+    <div><button id="botaoproximo">próximo</button></div>
      </section>
 
     <section class="pagina"><div class="opcoes"><p>9. Se sente cansado mesmo depois de ter dormido bem?</p></div>
@@ -244,7 +241,7 @@
         </label>
     </div>
 
-    <div><button>próximo</button></div>
+    <div><button id="botaoprocimo">próximo</button></div>
 
     </section>
 
@@ -262,20 +259,14 @@
         </label>
     </div>
 
-    <div><button>concluir</button></div>
+    <div><button id="botaoproximo">concluir</button></div>
     </section>
 
     <div class="navegacao" style="justify-content: flex-end; gap: 20px;">
-        <span id="IndicadorPagina">Página 1 de 10</span>
+        <span id="IndicadorPagina"></span>
     </div>
 
-
-
-   
-
-
-
-
+<script src="perguntas.js"></script>
 
 </body>
 </html>
